@@ -1,4 +1,4 @@
-<!-- Originall branched from - https://github.com/cadars/john-doe/ because I like not using JS sometimes-->
+<!-- Original branched from - https://github.com/cadars/john-doe/ because I like not using JS sometimes-->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
 
-    <title>Site title</title>
+    <title>Fred Tombs</title>
     <meta name="description" content="Site description">
 
     <!-- Recommended minimum -->
@@ -23,13 +23,14 @@
 
     <header>
       <h1>
-        <a href="#home">Site title</a>
+        <a href="#home">Fred Tombs</a>
       </h1>
       <nav>
         <a href="#about">About</a>
-        <a href="#news">News</a>
-        <a href="#photos">Photos</a>
-        <a href="#portfolio">Portfolio</a>
+        <!-- <a href="#news">News</a> -->
+        <a href="#projects">Projects</a>
+        <!-- <a href="#cpp-tips">C++ Tips</a> -->
+        <!-- <a href="#photos">Photos</a> -->
       </nav>
     </header>
 
@@ -37,13 +38,14 @@
 
       <section id="home"> <!-- HOME -->
 
-        <p>This is the homepage, displayed by default.</p>
+        <p>Computer Engineering graduate from the University of Waterloo</p>
+        <p>Hardware and software excite me</p>
 
       </section>
 
       <section id="about"> <!-- ABOUT -->
 
-        <p>This is the about page. <a href="#another-page">This is a link to another page</a>.</p>
+        <p>You won't find my personal information here: please look at my resume or meet me in the real world.</p>
 
         <figure>
           <a href="#img-about">
@@ -65,9 +67,22 @@
            </small></p>
         </article>
 
+      </section>
+
+      <section id="projects"> <!-- PROJECTS -->
+
         <article>
-          <h1><a href="https://example.com">Why Your Cat Bites You</a> <time>12.12.2004</time></h1>
-          <p>Honestly you don't want to know.</p>
+          <h1>Academic Research <time>2019-2020</time></h1>
+          <p> One <em>could</em> use this setup to write <s>a blog</s> short updates. For images make sure to use the <code>loading="lazy"</code> attribute, so they get loaded only when needed.<label for="lazy">1</label><input type="checkbox" id="lazy"><small>
+
+            You might be able to use it for <code>iframe</code> embeds too(?), but maybe just write a link to the Youtube video instead.
+
+           </small></p>
+        </article>
+
+        <article>
+          <h1>Real-Time Super Resolution for Game Streaming <time>2020</time></h1>
+          <p>Won an award for this.  </p>
         </article>
 
       </section>
@@ -98,27 +113,16 @@
 
       </section>
 
-      <section id="portfolio"> <!-- PORTFOLIO -->
-
-        <div class="slides">
-          <figure><img loading="lazy" alt="" src="//via.placeholder.com/4000x3000/ddd/ccc"></figure>
-          <figure><img loading="lazy" alt="" src="//via.placeholder.com/3000x4000/ddd/ccc"></figure>
-          <figure><img loading="lazy" alt="" src="//via.placeholder.com/4000x3000/ddd/ccc"></figure>
-          <figure>
-            <p>You can also have text over here.</p>
-          </figure>
-          <figure><img loading="lazy" alt="" src="//via.placeholder.com/1000x1000/ddd/ccc"></figure>
-          <figure><img loading="lazy" alt="" src="//via.placeholder.com/4000x3000/ddd/ccc"></figure>
-          <figure><img loading="lazy" alt="" src="//via.placeholder.com/3000x4000/ddd/ccc"></figure>
-          <figure><img loading="lazy" alt="" src="//via.placeholder.com/1000x1000/ddd/ccc"></figure>
-          <figure><img loading="lazy" alt="" src="//via.placeholder.com/4000x3000/ddd/ccc"></figure>
-        </div>
-
-      </section>
-
       <section id="another-page"> <!-- ANOTHER PAGE -->
 
         <p>This page is not referenced in the menu, yet it exists.</p>
+        <p><a href="#about">← back</a></p>
+
+      </section>
+
+      <section id="cpp-tips"> <!-- C++ Tips -->
+
+        <p>This isn't to impress you, ok</p>
         <p><a href="#about">← back</a></p>
 
       </section>
